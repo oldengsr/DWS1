@@ -1,0 +1,121 @@
+body {
+	background-image: url(../images/tumblr_mxjysbqAXh1r4ka7mo1_1280.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-attachment: fixed;
+	border: 8px double #3A1A52;
+	border-radius: 25px;
+	}
+#container {
+	width: 60%;
+	margin: 100px auto;
+	padding: 30px;
+	margin-left: 150px;
+	}
+ol {
+	margin-bottom: 40px;
+	text-align: center;
+	}
+ul {
+	text-align: center;
+	}
+li {
+	display:inline;
+	background-color: #FA709A;
+	width: 50px;
+	height: 50px;
+	padding: 10px;
+	margin-right: 10px;
+	}
+li:hover {
+	background-color: #F792B0;
+	}
+a {
+	text-decoration: none;
+	font: 16px century gothic;
+	color: #000000;
+	}
+h1 {
+	text-align: center;
+	font-family: 'Rock Salt', cursive;
+	font-size: 300%;
+	text-shadow: 2px 2px #FA709A;
+	}
+h2 {
+	font-family: 'The Girl Next Door', cursive;
+	font-size: 200%;
+	}
+h3 {
+	font-family: century gothic;
+	font-weight: bold;
+	color: #E01B74;
+	}
+h4 {
+	font-family: century gothic;
+	color: #F792B0;
+	}
+table {
+	border: 5px solid #3A1A52;
+	border-spacing: 1.5rem;
+	background-image: url("../images/pink-sponge-pattern-Wallpaper.jpg");
+	background-repeat: repeat;
+	padding: 5px;
+	font-family: Arial;
+	color: #FFFFFF;
+	margin-bottom: 30px;
+	text-align: left;
+	-webkit-column-break-inside:avoid;
+	-moz-column-break-inside:avoid;
+	-o-column-break-inside:avoid;
+	-ms-column-break-inside:avoid;
+	-column-break-inside:avoid;
+	}
+tr:hover {
+	opacity: 0.5;
+	background-color: #C4065C;
+	}
+th {
+	text-transform: uppercase;
+	}
+p {
+	font-family: Arial;
+	line-height: 2;
+	}
+figure {
+	background: #ffbadd; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffbadd 0%, #ed78b4 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffbadd), color-stop(100%,#ed78b4)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffbadd 0%,#ed78b4 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffbadd 0%,#ed78b4 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffbadd 0%,#ed78b4 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffbadd 0%,#ed78b4 100%); /* W3C */
+	margin: 5px;
+	padding: 15px;
+	text-align: center;
+	display: inline;
+	float: left;
+	}
+footer {
+	display: block;
+	clear: left;
+	}
+.thumbnail {
+	float: left;
+	display: inline;
+	width: 60px;
+	border: 1px solid #999;
+	margin: 0 15px 15px 0;
+	padding: 5px;
+	}
+#content {
+	-moz-column-count: 2;
+	-webkit-column-count: 2;
+	column-count: 2;
+	-moz-column-gap: 50px;
+	-webkit-column-gap: 50px;
+	column-gap: 50px;
+	}
+form {
+	padding: 10px;
+	clear: left;
+	}
